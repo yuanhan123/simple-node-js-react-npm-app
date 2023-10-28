@@ -3,6 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
+				// put ur github link
 				git 'https://github.com/yuanhan123/simple-node-js-react-npm-app.git'
 			}
 		}
